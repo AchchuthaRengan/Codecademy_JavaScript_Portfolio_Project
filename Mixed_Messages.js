@@ -1,13 +1,13 @@
-let randomNumber = (num) => 
-{
-    return Math.floor(Math.random()*num);
-}
-
 const deathAllocate = 
 {
     speciesType:['Human','Animal','Bird','Insect','Fish','Reptile'],
     specificType:['Male','Female'],
     superPower:['fly higher!','see in dark!','breathe in water!','be flexible as rubber!','hunt any animal!','can play Piano!','have invisible power!','run faster!'],
+}
+
+let randomNumber = (num) => 
+{
+    return Math.floor(Math.random()*num);
 }
 
 let finalChoice = [];
